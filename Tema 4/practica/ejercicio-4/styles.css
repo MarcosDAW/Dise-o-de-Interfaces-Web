@@ -1,0 +1,13 @@
+th{
+    border:1px solid #333;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+}
+#color{
+    background:#E6F3FF;
+}
+th span{
+    background:red;
+}

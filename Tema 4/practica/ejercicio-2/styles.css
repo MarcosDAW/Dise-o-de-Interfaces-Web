@@ -1,0 +1,56 @@
+/*<!-- colores:
+ teal, red, blue, orange,
+  purple,olive, fuchsia 
+  y green. -->*/
+#titulo{
+    color: teal;
+}
+strong{
+    color: red;
+}
+span.destacado{
+    color: orange;
+}
+#subtitulo{
+    color:blue;
+}
+a{
+    color: red;
+}
+a em{
+    color: blue;
+}
+span.especial{
+    color: purple;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th,tr,td{
+    border:1px solid black;
+}
+caption{
+    color: blue;
+}
+.especial{
+    color: orange;
+}
+td{
+    color: green;
+}
+td strong{
+    color: orange;
+}
+th{
+    color: red;
+}
+p{
+    color: olive;
+}
+span#especial{
+    color: fuchsia;
+}
+p a{
+    color: green;
+}
