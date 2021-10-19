@@ -1,4 +1,4 @@
-th{
+th,td{
     border:1px solid #333;
     padding: 5px;
     
@@ -7,14 +7,13 @@ table{
     border-collapse: collapse;
     font-family: Arial;
 }
-#tipo-moneda{
-    text-align: left;
-    background:#E6F3FF;
-}
-.fila1{
+.cabecera{
     background-image: url(fondo_gris.gif);
 }
-.fila2,.fila4{
+.par{
     background:#FFFFCC ;
 }
-
+.euro,.dolar,.libra,.yen {
+    background:#E6F3FF;
+    text-align: left;
+}

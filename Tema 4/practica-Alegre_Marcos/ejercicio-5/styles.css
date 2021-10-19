@@ -1,0 +1,35 @@
+/*ALEGRE MARCOS JAVIER */
+.formulario{
+    width: 90%;
+    padding: 20px 20px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #23333b ; 
+}
+
+.botones{
+    padding: 20px 0px;
+}
+.btn-signup, .btn-started{
+    background: #1eb28b ;
+    color:#fff;
+}
+.btn-signin{
+    background:  #48575f ;
+    color:  #84929c ;
+}
+.titulo{
+    color: #fff;
+    font-family: sans-serif;
+}
+.nombre-apellido{
+    padding: 20px 20px;
+}
+@media(max-width:444px){
+    .contenedor{
+        flex-direction: column;
+    }
+}
