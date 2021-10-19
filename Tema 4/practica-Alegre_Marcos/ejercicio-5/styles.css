@@ -1,13 +1,19 @@
 /*ALEGRE MARCOS JAVIER */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .formulario{
-    width: 90%;
     padding: 20px 20px;
+    margin: auto;
 }
 .contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:  #23333b ; 
+    background:  #23333b ;
+    padding: 10px 20px;
 }
 
 .botones{
@@ -24,9 +30,6 @@
 .titulo{
     color: #fff;
     font-family: sans-serif;
-}
-.nombre-apellido{
-    padding: 20px 20px;
 }
 @media(max-width:444px){
     .contenedor{
